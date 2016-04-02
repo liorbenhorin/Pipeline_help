@@ -1,0 +1,69 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to Pipeline\n\n\nA projects manager for Maya - version 1.0.0 BETA\n\n\n\n\nPipeline is seperated into two modules: the Assets module and the Scenes module.\n\n\nAssets:\n\n\nCharachters, Models, Rigs, Props, Stages or any other components of a production that will be used in animation is created here and published from here.\n\n\nScenes:\n\n\nAnimatic, Layouts, Animations etc. are composed using published components created in the asset module\n\n\nThe idea is very simple, however in most productions you wish to keep your project structure as simple as possible, so you can find you way when things get complicated.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-pipeline", 
+            "text": "A projects manager for Maya - version 1.0.0 BETA   Pipeline is seperated into two modules: the Assets module and the Scenes module.  Assets:  Charachters, Models, Rigs, Props, Stages or any other components of a production that will be used in animation is created here and published from here.  Scenes:  Animatic, Layouts, Animations etc. are composed using published components created in the asset module  The idea is very simple, however in most productions you wish to keep your project structure as simple as possible, so you can find you way when things get complicated.", 
+            "title": "Welcome to Pipeline"
+        }, 
+        {
+            "location": "/start/", 
+            "text": "Create a new project\n\n\nIn a project manager, the first thing want to do is to create a project:\n\n\n\n\nInside the projects window, create your first project:\n\n\n\n\n\n\nEnter the project's name ( \nwith no special charachters\n )\n\n\nuse the looking glass to locate a root folder to place your project\n\n\nHit 'Create'\n\n\n\n\nCreate your first asset\n\n\n\n\n\n\nCatagories - Charchetrs and props\n\n\nAssets - Individual charchters\n\n\nComponents - The parts that an asset is made of\n\n\n\n\nThis is just an exemple, you can use this sturcture however you like\n \n\n\nPublishing your first component\n\n\nWhen you have a component ready to be used in animation, you need to 'publish' it.\n\nOnce an component is published, it is visible in the 'Reference asset' tab on Scenes mode\n\n\n\n\nAfter working on your component, saveing versions, or waht not:\n\n\n\n\nSave master\n\n\nSee older masters you published in the master's tab", 
+            "title": "Getting started"
+        }, 
+        {
+            "location": "/start/#create-a-new-project", 
+            "text": "In a project manager, the first thing want to do is to create a project:   Inside the projects window, create your first project:    Enter the project's name (  with no special charachters  )  use the looking glass to locate a root folder to place your project  Hit 'Create'", 
+            "title": "Create a new project"
+        }, 
+        {
+            "location": "/start/#create-your-first-asset", 
+            "text": "Catagories - Charchetrs and props  Assets - Individual charchters  Components - The parts that an asset is made of   This is just an exemple, you can use this sturcture however you like", 
+            "title": "Create your first asset"
+        }, 
+        {
+            "location": "/start/#publishing-your-first-component", 
+            "text": "When you have a component ready to be used in animation, you need to 'publish' it. \nOnce an component is published, it is visible in the 'Reference asset' tab on Scenes mode   After working on your component, saveing versions, or waht not:   Save master  See older masters you published in the master's tab", 
+            "title": "Publishing your first component"
+        }, 
+        {
+            "location": "/ui/", 
+            "text": "Assets panel\n\n\n\n\n\n\nProject window \n\n\nScenes/Assets switch button \n\n\nAssets bank - Assets are sorted in catagories, and made from components\n\n\nComponents editor - Manage components versions published masters\n\n\n\n\nScenes panel\n\n\n\n\n\n\nScenes bank - Sequences and shots\n\n\nShot editor - mange shot version and metadeta\n\n\nReference assets - Published assets bank\n\n\n\n\nPublished assets\n\n\n\n\n\n\nThese are all the published components of the project", 
+            "title": "Interface"
+        }, 
+        {
+            "location": "/ui/#assets-panel", 
+            "text": "Project window   Scenes/Assets switch button   Assets bank - Assets are sorted in catagories, and made from components  Components editor - Manage components versions published masters", 
+            "title": "Assets panel"
+        }, 
+        {
+            "location": "/ui/#scenes-panel", 
+            "text": "Scenes bank - Sequences and shots  Shot editor - mange shot version and metadeta  Reference assets - Published assets bank", 
+            "title": "Scenes panel"
+        }, 
+        {
+            "location": "/ui/#published-assets", 
+            "text": "These are all the published components of the project", 
+            "title": "Published assets"
+        }, 
+        {
+            "location": "/projects/", 
+            "text": "Projects\n\n\n\n\n\n\nCreate new projects\n\n\nLoad existing projects     \n\n\nA project that was created with Pipeline will have a \nproject.pipe\n file in the root folder, \n\n   use this file to load the project\n\n\nUnload a project from Pipeline   \n\n\nOffline\n\n\nWhen a project is not found, Pipeline marks it as Offline,\n\n   relink it by locating the \nproject.pipe\n file\n \n\n\nEdit projects parameters, such as defult fps, users, etc.\n\n\nSet project to start working on it \n\n\nThe project marked in green is the active project\n   \n\n\n\n\nCollaboration\n\n\nMultiple users can work on the same project,  \n\n\neven when they are not on a local network, or not sharing the same OS\n   \n\n\nWhen placing a Pipelin project on a shared folder, ( Dropbox for exemple ),\nEach user can load it on his local system, and updates will get synced via the sharing platform.    \n\n\nI Recommend using \nSync\n for collaborations", 
+            "title": "Projects manager"
+        }, 
+        {
+            "location": "/projects/#projects", 
+            "text": "Create new projects  Load existing projects       A project that was created with Pipeline will have a  project.pipe  file in the root folder,  \n   use this file to load the project  Unload a project from Pipeline     Offline  When a project is not found, Pipeline marks it as Offline, \n   relink it by locating the  project.pipe  file    Edit projects parameters, such as defult fps, users, etc.  Set project to start working on it   The project marked in green is the active project", 
+            "title": "Projects"
+        }, 
+        {
+            "location": "/projects/#collaboration", 
+            "text": "Multiple users can work on the same project,    even when they are not on a local network, or not sharing the same OS      When placing a Pipelin project on a shared folder, ( Dropbox for exemple ),\nEach user can load it on his local system, and updates will get synced via the sharing platform.      I Recommend using  Sync  for collaborations", 
+            "title": "Collaboration"
+        }
+    ]
+}

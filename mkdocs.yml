@@ -1,0 +1,7 @@
+site_name: Pipeline 1.0.0 BETA
+theme: readthedocs
+pages:
+- Home: 'index.md'
+- Getting started: 'start.md'
+- Interface: 'ui.md'
+- Projects manager: 'projects.md'
