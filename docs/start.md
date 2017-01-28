@@ -1,35 +1,18 @@
-##Create a new project
+**Let's create our first project and save our first versioned item**
 
-In a project manager, the first thing want to do is to create a project:
 
-![no_project](http://i.imgur.com/jQmbm17.png)
+From the projects switcher, select new project… and fill in the required fields.
 
-Inside the projects window, create your first project:
+[Image of projects switcher]
 
-![create_project](http://i.imgur.com/VNIKlq9.png)
+To start creating files right click inside the folder browser below the branch selector and pick any of the presets.
 
-1. Enter the project's name ( __with no special charachters__ )
-2. use the looking glass to locate a root folder to place your project
-3. Hit 'Create'
+[Navigator with right click]
 
-##Create your first asset
+To start saving versions navigate to any component and use save version.
+The current scene will be saved as the first version of your component.
 
-![create_asset](http://i.imgur.com/0mtYpPp.png)
+[Save version button with first version]
 
-1. Catagories - Charchetrs and props
-2. Assets - Individual charchters
-3. Components - The parts that an asset is made of
 
-_This is just an exemple, you can use this sturcture however you like_ 
-
-##Publishing your first component
-
-When you have a component ready to be used in animation, you need to 'publish' it.  
-Once an component is published, it is visible in the 'Reference asset' tab on Scenes mode
-
-![master](http://i.imgur.com/dUSsa85.png)
-
-After working on your component, saveing versions, or waht not:
-
-1. Save master
-2. See older masters you published in the master's tab
+    

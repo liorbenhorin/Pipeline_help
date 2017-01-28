@@ -1,18 +1,8 @@
-# Welcome to Pipeline
+#Welcome to Pipeline: A projects manager for Autodesk Maya 
 
-A projects manager for Maya - version 1.0.0 BETA
+![pipeline](http://sandbox.nnl.tv/wp-content/uploads/2016/11/Main_Image-1.png)
 
-![pipeline](http://i.imgur.com/hIVGxBg.png)
-
-Pipeline is seperated into two modules: the Assets module and the Scenes module.
-
-__Assets:__
-
-Charachters, Models, Rigs, Props, Stages or any other components of a production that will be used in animation is created here and published from here.
-
-__Scenes:__
-
-
-Animatic, Layouts, Animations etc. are composed using published components created in the asset module
-
-_The idea is very simple, however in most productions you wish to keep your project structure as simple as possible, so you can find you way when things get complicated._
+Pipeline is simple and straight forward tool for managing Maya projects, 
+from simple one-shot animations, through student shorts, to asset beasts like tv series.
+Start working smarter and let Pipeline handle all the dirty work, 
+and stay focused on your artwork.

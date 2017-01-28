@@ -1,25 +1,19 @@
-##Projects
+###The projects manager
 
-![projects](http://i.imgur.com/ELYjDti.png)
+This is where we manage our projects.
+From here we can create projects, load and unload existing projects for quick opening.
+Create - opens up the create project dialogue:
+Project name - the projects folder name, must be leagal charchters, no spaces.
+In some cases where maya is only part of studios pipeline, this will be MAYA.
+Nice name - a friendly display name for the project.
+Path - where to save the project.
 
-1. Create new projects
-2. Load existing projects		
-   _A project that was created with Pipeline will have a **project.pipe** file in the root folder,	 
-   use this file to load the project_
-3. Unload a project from Pipeline	
-4. Offline	
-   _When a project is not found, Pipeline marks it as Offline,	
-   relink it by locating the **project.pipe** file_ 
-5. Edit projects parameters, such as defult fps, users, etc.
-6. Set project to start working on it	
-   _The project marked in green is the active project_   
+Branches - represent production sections, eg. Assets, animation, render, or any other high level phase of your project.
+You can add / remove them later as well.
 
-##Collaboration
+Users - Assign users to a project when you want to let team members collaborate - but with limited functionality, eg. Simple users can not delete files, and can not save master versions.
+Users also help you track who is saving versions.
 
-Multiple users can work on the same project,	
-__even when they are not on a local network, or not sharing the same OS__	
-
-When placing a Pipelin project on a shared folder, ( Dropbox for exemple ),
-Each user can load it on his local system, and updates will get synced via the sharing platform.	
-
-_I Recommend using [Sync](https://www.getsync.com/) for collaborations_
+!!! note
+    Projects with users require logging in with password when setting project.
+    
