@@ -1,4 +1,4 @@
-####Pipeline folder structure framework
+#Pipeline folder structure framework
 
 Every pipeline project is made of Branches.
 
@@ -10,8 +10,10 @@ Components contain the maya files:
 2. component version files
 3. component master archived files
 
-***The pipeline framework is designed to handle most of the common CGI workflows,<br>
-from small commercial, to short film, to tv series.***<br><br>
+***The pipeline framework is designed to handle most of the common CGI workflows,...
+from small commercial, to short film, to tv series.***
+
+***
 
 !!! note
     Every pipeline project is essentially a maya project.<br>

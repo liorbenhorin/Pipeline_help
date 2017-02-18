@@ -1,11 +1,11 @@
-###The projects manager
+#The projects manager
 
 ![The projects window](projects_window.png)
 
 This is where we manage our projects.<br />
 We can create projects, load and unload existing projects for quick opening.
 
-###Create project
+##Create project
 
 
 ![Create new project](new_project.png)

@@ -1,9 +1,9 @@
-###The navigation panel
+#The navigation panel
 
 The navigation panel is where we can view and edit our project structure.
 
 
-#####Branch switcher
+##Branch switcher
 
 Lists all the projects branches.
 Setting a branch will display it's content in the folder viewer and the components library.
@@ -12,12 +12,14 @@ Setting a branch will display it's content in the folder viewer and the componen
     * Adding and removing branches is done from the project edit window.
     * Users without administration privileges can not edit projects.
 
-#####Search in branch
+##Search in branch
 
 Enter your search string to filter components in the current branch
 
 !!! bug
     May be slow or hang Maya on branches with many components    
+
+##Folders viewer
 
 Folder view - works like windows explorer / osx finder to navigate the branch directories and components.
 

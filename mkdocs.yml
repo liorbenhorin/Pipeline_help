@@ -4,7 +4,7 @@ markdown_extensions:
   - admonition
 pages:
 - Overview: 'index.md'
-- Framework: 'framework.md'
+- Pipeline framework: 'framework.md'
 - Quick start: 'start.md'
 - Projects manager: 'projects.md'
 - The Navigation panel: 'nav.md'

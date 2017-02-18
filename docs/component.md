@@ -1,4 +1,4 @@
-###The component panel
+##The component panel
 
 When selecting a component frim the navigation panel, its being loaded into the component panel.
 You can see the component summary with the number of versions, public status identifier, thumbnail and notes.
