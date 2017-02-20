@@ -2,9 +2,11 @@ site_name: Pipeline 2.0.0
 theme: material
 markdown_extensions:
   - admonition
+  - codehilite
 pages:
 - Overview: 'index.md'
 - Pipeline framework: 'framework.md'
+- Installation: 'installation.md'
 - Quick start: 'start.md'
 - Projects manager: 'projects.md'
 - The Navigation panel: 'nav.md'
