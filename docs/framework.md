@@ -8,7 +8,9 @@ Components contain the maya files:
 
 1. component master file
 2. component version files
-3. component master archived files
+3. archived files
+4. component master Playblast
+5. archived playblast files 
 
 ***The pipeline framework is designed to handle most of the common CGI workflows,...
 from small commercial, to short film, to tv series.***
