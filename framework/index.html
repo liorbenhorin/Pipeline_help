@@ -15,7 +15,7 @@
     
     
       
-        <title>Getting started - Pipeline 2.0.0</title>
+        <title>Pipeline framework - Pipeline 2.0.0</title>
       
     
     
@@ -71,7 +71,7 @@
             
               
             
-            Getting started
+            Pipeline framework
           
         </span>
       </div>
@@ -137,9 +137,23 @@
       
   <li class="md-nav__item">
     
-      <a href="../framework/" title="Pipeline framework" class="md-nav__link">
-        Pipeline framework
-      </a>
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+    <a href="./" title="Pipeline framework" class="md-nav__link md-nav__link--active">
+      Pipeline framework
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
     
   </li>
 
@@ -159,53 +173,9 @@
       
   <li class="md-nav__item">
     
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
+      <a href="../start/" title="Getting started" class="md-nav__link">
         Getting started
-      </label>
-    
-    <a href="./" title="Getting started" class="md-nav__link md-nav__link--active">
-      Getting started
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#create-a-new-project" title="Create a new project" class="md-nav__link">
-    Create a new project
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#create-a-new-component" title="Create a new component" class="md-nav__link">
-    Create a new component
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#save-a-version" title="Save a version" class="md-nav__link">
-    Save a version
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
+      </a>
     
   </li>
 
@@ -282,32 +252,6 @@
     
   
   
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#create-a-new-project" title="Create a new project" class="md-nav__link">
-    Create a new project
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#create-a-new-component" title="Create a new component" class="md-nav__link">
-    Create a new component
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#save-a-version" title="Save a version" class="md-nav__link">
-    Save a version
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -319,24 +263,31 @@
                
               
                 
-                <h1 id="getting-started">Getting started</h1>
-<p><strong><em>Let's create our first project and save our first versioned item</em></strong></p>
-<h2 id="create-a-new-project">Create a new project</h2>
-<p><img alt="The project switcher" src="../project_button.png" /></p>
-<p>From the projects switcher, select "new project…" and fill in the required fields.</p>
-<h2 id="create-a-new-component">Create a new component</h2>
-<p><img alt="Navigator options menu" src="../nav_right_click.png" /></p>
-<p>Create a component by clicking the dropdown menu in the folder browser and select "new component".<br>
-Give it a name and hit Enter.</p>
-<h2 id="save-a-version">Save a version</h2>
-<p><img alt="Saving versions" src="../save_version.png" /></p>
-<p>To start saving versions navigate to any component and use save version.
-The current scene will be saved as the first version of your component.</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
+                <h1 id="pipeline-folder-structure-framework">Pipeline folder structure framework</h1>
+<p>Every pipeline project is made of Branches.</p>
+<p>Each branch contains a hierarchy of folders and components.</p>
+<p>Components contain the maya files:</p>
+<ol>
+<li>component master file</li>
+<li>component version files</li>
+<li>archived files</li>
+<li>component master Playblast</li>
+<li>archived playblast files </li>
+</ol>
+<p><strong><em>The pipeline framework is designed to handle most of the common CGI workflows,...
+from small commercial, to short film, to tv series.</em></strong></p>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Every pipeline project is essentially a maya project.<br>
+pipeline will use json files to map the projects directory structure.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
 <ul>
-<li>Click the chat balloon icons to save a version specific massage</li>
-<li>Any content that is currently opened in maya will be saved when saving version.</li>
+<li>Do not to alter the directory structure of a pipeline project manually.</li>
+<li>Do not delete any json file from the project directories.</li>
+<li>Doing so will result in pipeline unable to read the project.</li>
 </ul>
 </div>
               
@@ -351,7 +302,7 @@ The current scene will be saved as the first version of your component.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../installation/" title="Installation" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href=".." title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -360,19 +311,19 @@ The current scene will be saved as the first version of your component.</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Installation
+                Overview
               </span>
             </div>
           </a>
         
         
-          <a href="../projects/" title="Projects manager" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../installation/" title="Installation" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Projects manager
+                Installation
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

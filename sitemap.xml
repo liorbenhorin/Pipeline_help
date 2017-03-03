@@ -3,32 +3,72 @@
 
     
     <url>
-     <loc>None/</loc>
-     <lastmod>2016-04-02</lastmod>
+     <loc>/</loc>
+     <lastmod>2017-03-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/start/</loc>
-     <lastmod>2016-04-02</lastmod>
+     <loc>/framework/</loc>
+     <lastmod>2017-03-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/ui/</loc>
-     <lastmod>2016-04-02</lastmod>
+     <loc>/installation/</loc>
+     <lastmod>2017-03-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/projects/</loc>
-     <lastmod>2016-04-02</lastmod>
+     <loc>/start/</loc>
+     <lastmod>2017-03-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/projects/</loc>
+     <lastmod>2017-03-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/nav/</loc>
+     <lastmod>2017-03-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/component/</loc>
+     <lastmod>2017-03-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/menu/</loc>
+     <lastmod>2017-03-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/presets/</loc>
+     <lastmod>2017-03-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     

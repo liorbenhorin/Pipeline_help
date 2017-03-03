@@ -2,68 +2,213 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to Pipeline\n\n\nA projects manager for Maya - version 1.0.0 BETA\n\n\n\n\nPipeline is seperated into two modules: the Assets module and the Scenes module.\n\n\nAssets:\n\n\nCharachters, Models, Rigs, Props, Stages or any other components of a production that will be used in animation is created here and published from here.\n\n\nScenes:\n\n\nAnimatic, Layouts, Animations etc. are composed using published components created in the asset module\n\n\nThe idea is very simple, however in most productions you wish to keep your project structure as simple as possible, so you can find you way when things get complicated.", 
-            "title": "Home"
+            "text": "Welcome to Pipeline: A projects manager for Autodesk Maya\n\n\n\n\nPipeline is simple and straight forward tool for managing Maya projects,... \nfrom simple one-shot animations, through student shorts, to asset beasts like tv series.\n\n\nStart working smarter and let Pipeline handle all the dirty work, \n\nand stay focused on your artwork.\n\n\n\n\nVisit \nhttp://pipeline.nnl.tv\n to get Pipeline.", 
+            "title": "Overview"
         }, 
         {
-            "location": "/#welcome-to-pipeline", 
-            "text": "A projects manager for Maya - version 1.0.0 BETA   Pipeline is seperated into two modules: the Assets module and the Scenes module.  Assets:  Charachters, Models, Rigs, Props, Stages or any other components of a production that will be used in animation is created here and published from here.  Scenes:  Animatic, Layouts, Animations etc. are composed using published components created in the asset module  The idea is very simple, however in most productions you wish to keep your project structure as simple as possible, so you can find you way when things get complicated.", 
-            "title": "Welcome to Pipeline"
+            "location": "/#welcome-to-pipeline-a-projects-manager-for-autodesk-maya", 
+            "text": "Pipeline is simple and straight forward tool for managing Maya projects,... \nfrom simple one-shot animations, through student shorts, to asset beasts like tv series.  Start working smarter and let Pipeline handle all the dirty work,  \nand stay focused on your artwork.   Visit  http://pipeline.nnl.tv  to get Pipeline.", 
+            "title": "Welcome to Pipeline: A projects manager for Autodesk Maya"
+        }, 
+        {
+            "location": "/framework/", 
+            "text": "Pipeline folder structure framework\n\n\nEvery pipeline project is made of Branches.\n\n\nEach branch contains a hierarchy of folders and components.\n\n\nComponents contain the maya files:\n\n\n\n\ncomponent master file\n\n\ncomponent version files\n\n\narchived files\n\n\ncomponent master Playblast\n\n\narchived playblast files \n\n\n\n\nThe pipeline framework is designed to handle most of the common CGI workflows,...\nfrom small commercial, to short film, to tv series.\n\n\n\n\n\n\nNote\n\n\nEvery pipeline project is essentially a maya project.\n\npipeline will use json files to map the projects directory structure.\n\n\n\n\n\n\nWarning\n\n\n\n\nDo not to alter the directory structure of a pipeline project manually.\n\n\nDo not delete any json file from the project directories.\n\n\nDoing so will result in pipeline unable to read the project.", 
+            "title": "Pipeline framework"
+        }, 
+        {
+            "location": "/framework/#pipeline-folder-structure-framework", 
+            "text": "Every pipeline project is made of Branches.  Each branch contains a hierarchy of folders and components.  Components contain the maya files:   component master file  component version files  archived files  component master Playblast  archived playblast files    The pipeline framework is designed to handle most of the common CGI workflows,...\nfrom small commercial, to short film, to tv series.    Note  Every pipeline project is essentially a maya project. \npipeline will use json files to map the projects directory structure.    Warning   Do not to alter the directory structure of a pipeline project manually.  Do not delete any json file from the project directories.  Doing so will result in pipeline unable to read the project.", 
+            "title": "Pipeline folder structure framework"
+        }, 
+        {
+            "location": "/installation/", 
+            "text": "Installation\n\n\nPlace Pipeline folder in your Maya scripts directory.\n\n\n\n\n\n\n\n\nOS\n\n\nScripts folder\n\n\n\n\n\n\n\n\n\n\nMac\n\n\n/Users/user/Library/Preferences/Autodesk/maya/20xx/scripts\n\n\n\n\n\n\nWindows\n\n\nC:\\Users\\user\\Documents\\maya\\20xx\\scripts\n\n\n\n\n\n\n\n\nIn maya, open the script editor in a Python tab and run the following:\n\n\nimport\n \npipeline\n\n\npipeline\n.\nstart\n()\n\n\n\n\n\n\n\n\nTip\n\n\nYou can Middle click and drag this code onto a shelf, to make it a button.", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/installation/#installation", 
+            "text": "Place Pipeline folder in your Maya scripts directory.     OS  Scripts folder      Mac  /Users/user/Library/Preferences/Autodesk/maya/20xx/scripts    Windows  C:\\Users\\user\\Documents\\maya\\20xx\\scripts     In maya, open the script editor in a Python tab and run the following:  import   pipeline  pipeline . start ()    Tip  You can Middle click and drag this code onto a shelf, to make it a button.", 
+            "title": "Installation"
         }, 
         {
             "location": "/start/", 
-            "text": "Create a new project\n\n\nIn a project manager, the first thing want to do is to create a project:\n\n\n\n\nInside the projects window, create your first project:\n\n\n\n\n\n\nEnter the project's name ( \nwith no special charachters\n )\n\n\nuse the looking glass to locate a root folder to place your project\n\n\nHit 'Create'\n\n\n\n\nCreate your first asset\n\n\n\n\n\n\nCatagories - Charchetrs and props\n\n\nAssets - Individual charchters\n\n\nComponents - The parts that an asset is made of\n\n\n\n\nThis is just an exemple, you can use this sturcture however you like\n \n\n\nPublishing your first component\n\n\nWhen you have a component ready to be used in animation, you need to 'publish' it.\n\nOnce an component is published, it is visible in the 'Reference asset' tab on Scenes mode\n\n\n\n\nAfter working on your component, saveing versions, or waht not:\n\n\n\n\nSave master\n\n\nSee older masters you published in the master's tab", 
+            "text": "Getting started\n\n\nLet's create our first project and save our first versioned item\n\n\nCreate a new project\n\n\n\n\nFrom the projects switcher, select \"new project\u2026\" and fill in the required fields.\n\n\nCreate a new component\n\n\n\n\nCreate a component by clicking the dropdown menu in the folder browser and select \"new component\".\n\nGive it a name and hit Enter.\n\n\nSave a version\n\n\n\n\nTo start saving versions navigate to any component and use save version.\nThe current scene will be saved as the first version of your component.\n\n\n\n\nTip\n\n\n\n\nClick the chat balloon icons to save a version specific massage\n\n\nAny content that is currently opened in maya will be saved when saving version.", 
+            "title": "Getting started"
+        }, 
+        {
+            "location": "/start/#getting-started", 
+            "text": "Let's create our first project and save our first versioned item", 
             "title": "Getting started"
         }, 
         {
             "location": "/start/#create-a-new-project", 
-            "text": "In a project manager, the first thing want to do is to create a project:   Inside the projects window, create your first project:    Enter the project's name (  with no special charachters  )  use the looking glass to locate a root folder to place your project  Hit 'Create'", 
+            "text": "From the projects switcher, select \"new project\u2026\" and fill in the required fields.", 
             "title": "Create a new project"
         }, 
         {
-            "location": "/start/#create-your-first-asset", 
-            "text": "Catagories - Charchetrs and props  Assets - Individual charchters  Components - The parts that an asset is made of   This is just an exemple, you can use this sturcture however you like", 
-            "title": "Create your first asset"
+            "location": "/start/#create-a-new-component", 
+            "text": "Create a component by clicking the dropdown menu in the folder browser and select \"new component\". \nGive it a name and hit Enter.", 
+            "title": "Create a new component"
         }, 
         {
-            "location": "/start/#publishing-your-first-component", 
-            "text": "When you have a component ready to be used in animation, you need to 'publish' it. \nOnce an component is published, it is visible in the 'Reference asset' tab on Scenes mode   After working on your component, saveing versions, or waht not:   Save master  See older masters you published in the master's tab", 
-            "title": "Publishing your first component"
-        }, 
-        {
-            "location": "/ui/", 
-            "text": "Assets panel\n\n\n\n\n\n\nProject window \n\n\nScenes/Assets switch button \n\n\nAssets bank - Assets are sorted in catagories, and made from components\n\n\nComponents editor - Manage components versions published masters\n\n\n\n\nScenes panel\n\n\n\n\n\n\nScenes bank - Sequences and shots\n\n\nShot editor - mange shot version and metadeta\n\n\nReference assets - Published assets bank\n\n\n\n\nPublished assets\n\n\n\n\n\n\nThese are all the published components of the project", 
-            "title": "Interface"
-        }, 
-        {
-            "location": "/ui/#assets-panel", 
-            "text": "Project window   Scenes/Assets switch button   Assets bank - Assets are sorted in catagories, and made from components  Components editor - Manage components versions published masters", 
-            "title": "Assets panel"
-        }, 
-        {
-            "location": "/ui/#scenes-panel", 
-            "text": "Scenes bank - Sequences and shots  Shot editor - mange shot version and metadeta  Reference assets - Published assets bank", 
-            "title": "Scenes panel"
-        }, 
-        {
-            "location": "/ui/#published-assets", 
-            "text": "These are all the published components of the project", 
-            "title": "Published assets"
+            "location": "/start/#save-a-version", 
+            "text": "To start saving versions navigate to any component and use save version.\nThe current scene will be saved as the first version of your component.   Tip   Click the chat balloon icons to save a version specific massage  Any content that is currently opened in maya will be saved when saving version.", 
+            "title": "Save a version"
         }, 
         {
             "location": "/projects/", 
-            "text": "Projects\n\n\n\n\n\n\nCreate new projects\n\n\nLoad existing projects     \n\n\nA project that was created with Pipeline will have a \nproject.pipe\n file in the root folder, \n\n   use this file to load the project\n\n\nUnload a project from Pipeline   \n\n\nOffline\n\n\nWhen a project is not found, Pipeline marks it as Offline,\n\n   relink it by locating the \nproject.pipe\n file\n \n\n\nEdit projects parameters, such as defult fps, users, etc.\n\n\nSet project to start working on it \n\n\nThe project marked in green is the active project\n   \n\n\n\n\nCollaboration\n\n\nMultiple users can work on the same project,  \n\n\neven when they are not on a local network, or not sharing the same OS\n   \n\n\nWhen placing a Pipelin project on a shared folder, ( Dropbox for exemple ),\nEach user can load it on his local system, and updates will get synced via the sharing platform.    \n\n\nI Recommend using \nSync\n for collaborations", 
+            "text": "The projects manager\n\n\n\n\nThis is where we manage our projects.\n\nWe can create projects, load and unload existing projects for quick opening.\n\n\nCreate project\n\n\n\n\nIn the creation diaglog we will initilize our new project with it's variables.\n\n\n\n\nProject name\n - the projects folder name, must be leagal charchters, no spaces.\n\n\n\n\nNice name\n - a friendly display name for the project.\n\n\n\n\nTip\n\n\nThis can help when the project's name has to be 'MAYA' to fit some studio's workflow\n\n\n\n\n\n\n\n\nPath\n - where to save the project.\n\n\n\n\nPadding\n - The padding value pipeline will use when foramatting version numbers.\n\neg. v001 equals a padding value of 3\n\n\nDefault FPS\n - New scenes will automatically get configured with this frame rate\n\n\n\n\nSave playblasts at\n - We can save playblasts at one of three locations:\n\n\n\n\n/project\n - Playblasts will be saved on the projects root under playbalasts folder\n\n\n../project\n - Playblasts will be saved on a sister directory to the projects root folder, in a folder called playblasts\n\n\n/component\n - Playbasts will be saved under each component that is recording them\n\n\n\n\n\n\nTip\n\n\n\n\nThis setting can be modified at all times, and pipeline will handle the files relocation.\n\n\nThe movies will be stored in a folder structure mirrored to their components \n\n\n\n\n\n\n\n\n\n\nBranches\n - represent production sections, eg. Assets, animation, render, or any other high level phase of your project.\n\nYou can add / remove them later as well.\n\n\n\n\n\n\nUsers\n - Assign users to a project when you want to let team members collaborate - but with limited functionality, eg. Simple users can not delete files, and can not save master versions.\n\nUsers also help you track who is saving versions.\n\n\n\n\nNote\n\n\nProjects with users require logging in with password when setting project.", 
             "title": "Projects manager"
         }, 
         {
-            "location": "/projects/#projects", 
-            "text": "Create new projects  Load existing projects       A project that was created with Pipeline will have a  project.pipe  file in the root folder,  \n   use this file to load the project  Unload a project from Pipeline     Offline  When a project is not found, Pipeline marks it as Offline, \n   relink it by locating the  project.pipe  file    Edit projects parameters, such as defult fps, users, etc.  Set project to start working on it   The project marked in green is the active project", 
-            "title": "Projects"
+            "location": "/projects/#the-projects-manager", 
+            "text": "This is where we manage our projects. \nWe can create projects, load and unload existing projects for quick opening.", 
+            "title": "The projects manager"
         }, 
         {
-            "location": "/projects/#collaboration", 
-            "text": "Multiple users can work on the same project,    even when they are not on a local network, or not sharing the same OS      When placing a Pipelin project on a shared folder, ( Dropbox for exemple ),\nEach user can load it on his local system, and updates will get synced via the sharing platform.      I Recommend using  Sync  for collaborations", 
-            "title": "Collaboration"
+            "location": "/projects/#create-project", 
+            "text": "In the creation diaglog we will initilize our new project with it's variables.   Project name  - the projects folder name, must be leagal charchters, no spaces.   Nice name  - a friendly display name for the project.   Tip  This can help when the project's name has to be 'MAYA' to fit some studio's workflow     Path  - where to save the project.   Padding  - The padding value pipeline will use when foramatting version numbers. \neg. v001 equals a padding value of 3  Default FPS  - New scenes will automatically get configured with this frame rate   Save playblasts at  - We can save playblasts at one of three locations:   /project  - Playblasts will be saved on the projects root under playbalasts folder  ../project  - Playblasts will be saved on a sister directory to the projects root folder, in a folder called playblasts  /component  - Playbasts will be saved under each component that is recording them    Tip   This setting can be modified at all times, and pipeline will handle the files relocation.  The movies will be stored in a folder structure mirrored to their components       Branches  - represent production sections, eg. Assets, animation, render, or any other high level phase of your project. \nYou can add / remove them later as well.    Users  - Assign users to a project when you want to let team members collaborate - but with limited functionality, eg. Simple users can not delete files, and can not save master versions. \nUsers also help you track who is saving versions.   Note  Projects with users require logging in with password when setting project.", 
+            "title": "Create project"
+        }, 
+        {
+            "location": "/nav/", 
+            "text": "The navigation panel\n\n\n\n\nThe navigation panel is where we can view and edit our project structure.\n\n\nBranch switcher\n\n\n\n\nLists all the projects branches.\nSetting a branch will display it's content in the folder viewer and the components library.\n\n\n\n\nNote\n\n\n\n\nAdding and removing branches is done from the project edit window.\n\n\nUsers without administration privileges can not edit projects.\n\n\n\n\n\n\n\n\nFolders and actions\n\n\n\n\nTo invoke the folder aciton's menu click the folder title or right click.\n\n\nCreate component\n\n\n\n\n\n\nName\n - The component name (Usually will stand for the task name. eg. Model)\n\n\nInitial version\n - You can create you new component with a clean file for the first version,\n\nFrom the current scene, from a current selection, from a file, or not create the first version at all.\n\n\nFile name format\n - How to compose the maya file name.\n\nThe amount of parent categories to include in the name.\n\nSee the live preview updating when you change the numbers.\n\n\n\n\nCreate category\n\n\n\n\n\n\nName\n - The category name\n\n\nRange\n - from - to (instead of inputting the number of folders, we define the range)\n\n\npadding\n - how to format the numbers (padding of 3 = 001)\n\n\n\n\n\n\nTip\n\n\nTo create a single folder with no numbering, set from and to at 1, and padding to 0\n\n\n\n\nExplore\n\n\nOpen the finder / explorer window on the current selected item.\n\n\nDelete\n\n\nDelete the item and all it's children\n\n\nRename\n\n\nRename the item and all it's children items. (And maya files)\n\n\n\n\nWarning\n\n\nNever use this feature when the item or children of the item are being referenced into other files.\n\n\n\n\n\n\nSearch in branch\n\n\n\n\nEnter your search string to filter components in the current branch\n\n\n\n\nBug\n\n\nMay be slow or hang Maya on branches with many components", 
+            "title": "Navigation"
+        }, 
+        {
+            "location": "/nav/#the-navigation-panel", 
+            "text": "The navigation panel is where we can view and edit our project structure.", 
+            "title": "The navigation panel"
+        }, 
+        {
+            "location": "/nav/#branch-switcher", 
+            "text": "Lists all the projects branches.\nSetting a branch will display it's content in the folder viewer and the components library.   Note   Adding and removing branches is done from the project edit window.  Users without administration privileges can not edit projects.", 
+            "title": "Branch switcher"
+        }, 
+        {
+            "location": "/nav/#folders-and-actions", 
+            "text": "To invoke the folder aciton's menu click the folder title or right click.", 
+            "title": "Folders and actions"
+        }, 
+        {
+            "location": "/nav/#create-component", 
+            "text": "Name  - The component name (Usually will stand for the task name. eg. Model)  Initial version  - You can create you new component with a clean file for the first version, \nFrom the current scene, from a current selection, from a file, or not create the first version at all.  File name format  - How to compose the maya file name. \nThe amount of parent categories to include in the name. \nSee the live preview updating when you change the numbers.", 
+            "title": "Create component"
+        }, 
+        {
+            "location": "/nav/#create-category", 
+            "text": "Name  - The category name  Range  - from - to (instead of inputting the number of folders, we define the range)  padding  - how to format the numbers (padding of 3 = 001)    Tip  To create a single folder with no numbering, set from and to at 1, and padding to 0", 
+            "title": "Create category"
+        }, 
+        {
+            "location": "/nav/#explore", 
+            "text": "Open the finder / explorer window on the current selected item.", 
+            "title": "Explore"
+        }, 
+        {
+            "location": "/nav/#delete", 
+            "text": "Delete the item and all it's children", 
+            "title": "Delete"
+        }, 
+        {
+            "location": "/nav/#rename", 
+            "text": "Rename the item and all it's children items. (And maya files)   Warning  Never use this feature when the item or children of the item are being referenced into other files.", 
+            "title": "Rename"
+        }, 
+        {
+            "location": "/nav/#search-in-branch", 
+            "text": "Enter your search string to filter components in the current branch   Bug  May be slow or hang Maya on branches with many components", 
+            "title": "Search in branch"
+        }, 
+        {
+            "location": "/component/", 
+            "text": "The component tab\n\n\n\n\nWhen you select a component from the navigation panel, its will show in the component panel.\n\n\nThe panel is made of the component path, number of versions, thumbnail and a note.\n\n\n\n\nSave a thumbnail\n - click on the small disc icon at the top left corner of the thumbnail.\n\n\nSave or edit note\n - double click the note area.\n\n\n\n\n\n\nVersions\n\n\nThe version tab will display all the versions of the component.\n\n\n\n\n\n\nOpen version\n - click the open button to load requested version. \n\n\n\n\n\n\nIf the version is already loaded a reload button will appear.\n\n\n\n\n\n\n\n\nSave note\n - double click the + balloon. \n\n\n\n\n\n\nAdditionally we can see the file size, save time \n data and the user that saved the version (For project's with users).\n \n\n\nSave version\n\n\n\n\nSave version\n - Save the current maya file as a new version.\n\n\nSave only selection\n - Save the current selection as a new version.\n\n\nYou can choose to save with with all connection or just textures.\n\n\n\n\n\n\nSave from file\n - Select a file to save as the new version.\n\n\n\n\nVersion actions menu\n\n\n\n\nRight click on a version to invoke the menu\n\n\n\n\nReference version # into the current scene\n - Reference the selected version onto the current open scene.\n\n\nImport version # into the current scene\n - Import the selected version onto the current open scene.\n\n\nDelete\n - Delete's the selected version\n\n\nExplore\n - Open the finder / explorer window on the current selected item.\n\n\n\n\n\n\nMasters \n Playblasts\n\n\n\n\nMaster\n - Unversioned file with the 'MASTER' suffix.\n\n\nMaster versions\n\n\n\n\n\n\nNote\n\n\nIn playblasts tab, the open button is replaced with a play button to launch the video in the defult video player.\n\n\n\n\n\n\nIf we want to revert our master file to an older version, we can use the \nrevert\n action.", 
+            "title": "Components"
+        }, 
+        {
+            "location": "/component/#the-component-tab", 
+            "text": "When you select a component from the navigation panel, its will show in the component panel.  The panel is made of the component path, number of versions, thumbnail and a note.   Save a thumbnail  - click on the small disc icon at the top left corner of the thumbnail.  Save or edit note  - double click the note area.", 
+            "title": "The component tab"
+        }, 
+        {
+            "location": "/component/#versions", 
+            "text": "The version tab will display all the versions of the component.    Open version  - click the open button to load requested version.     If the version is already loaded a reload button will appear.     Save note  - double click the + balloon.     Additionally we can see the file size, save time   data and the user that saved the version (For project's with users).", 
+            "title": "Versions"
+        }, 
+        {
+            "location": "/component/#save-version", 
+            "text": "Save version  - Save the current maya file as a new version.  Save only selection  - Save the current selection as a new version.  You can choose to save with with all connection or just textures.    Save from file  - Select a file to save as the new version.", 
+            "title": "Save version"
+        }, 
+        {
+            "location": "/component/#version-actions-menu", 
+            "text": "Right click on a version to invoke the menu   Reference version # into the current scene  - Reference the selected version onto the current open scene.  Import version # into the current scene  - Import the selected version onto the current open scene.  Delete  - Delete's the selected version  Explore  - Open the finder / explorer window on the current selected item.", 
+            "title": "Version actions menu"
+        }, 
+        {
+            "location": "/component/#masters-playblasts", 
+            "text": "Master  - Unversioned file with the 'MASTER' suffix.  Master versions    Note  In playblasts tab, the open button is replaced with a play button to launch the video in the defult video player.    If we want to revert our master file to an older version, we can use the  revert  action.", 
+            "title": "Masters &amp; Playblasts"
+        }, 
+        {
+            "location": "/menu/", 
+            "text": "Pipeline menu\n\n\nSome of Pipeline features are accessed only through the pipeline menu.\n\n\n\n\nApps\n\n\n\n\nPipeline window\n - brings up the pipeline window\n\n\n\n\nPipeline actions\n - Pipeline saving options\n\n\n\n\nTip\n\n\nTear off this menu to have quick access to the saving buttons when the pipeline window is hidden.\n\n\n\n\n\n\n\n\n\n\nOptions\n\n\n\n\nPreset manager\n - brings up the \npreset manager\n\n\n\n\nPlayblast options\n - brings up the Playblast options\n\n\n\n\nBug\n\n\nPlayblasting from Pipeline on windows machines is unstable, especially if no H264 codecs are installed.\nThis will be fixed soon.\n\n\n\n\n\n\n\n\nDebug\n\n\n\n\n\n\nReload Pipeline\n - Pipeline is constantly being developed and might contain bugs.\n\nif you experience issues when running pipeline try using the reload command.\n\n\n\n\nNote\n\n\nPlease consider reporting bugs to liorbenhorin@gmail.com.\n\nTry to describe the steps to recreate the problem, and include the output from the script editor.\n\nAny additional information can help: Operation system, Maya version, etc.\n\nThank you!", 
+            "title": "Pipeline menu"
+        }, 
+        {
+            "location": "/menu/#pipeline-menu", 
+            "text": "Some of Pipeline features are accessed only through the pipeline menu.", 
+            "title": "Pipeline menu"
+        }, 
+        {
+            "location": "/menu/#apps", 
+            "text": "Pipeline window  - brings up the pipeline window   Pipeline actions  - Pipeline saving options   Tip  Tear off this menu to have quick access to the saving buttons when the pipeline window is hidden.", 
+            "title": "Apps"
+        }, 
+        {
+            "location": "/menu/#options", 
+            "text": "Preset manager  - brings up the  preset manager   Playblast options  - brings up the Playblast options   Bug  Playblasting from Pipeline on windows machines is unstable, especially if no H264 codecs are installed.\nThis will be fixed soon.", 
+            "title": "Options"
+        }, 
+        {
+            "location": "/menu/#debug", 
+            "text": "Reload Pipeline  - Pipeline is constantly being developed and might contain bugs. \nif you experience issues when running pipeline try using the reload command.   Note  Please consider reporting bugs to liorbenhorin@gmail.com. \nTry to describe the steps to recreate the problem, and include the output from the script editor. \nAny additional information can help: Operation system, Maya version, etc. \nThank you!", 
+            "title": "Debug"
+        }, 
+        {
+            "location": "/presets/", 
+            "text": "Presets\n\n\nPresets are used to design a folder structure schema that describes the studio's tasks\n\nand enable the user to generate common tree structures quickly.\n\n\nA preset will ask for user input to generate a folder tree with all the needed components and categories with just a few clicks.\n\n\nPresets can be created from the ui, exported and imported as json files and shared between friends and colleagues.\n\n\n\n\nIn this example, a preset is used to generate all the components needed for the \"Animal\" character, \n\nNotice how the categories are duplicated in both \"assets\" and \"sourceimages\" branches.\n\nIn maya, this structure can be very helpful\n\n\n\n\nThe preset manager\n\n\nIn the preset manager we can create and edit our presets.\n\nThe preset is made up of categories and components\n\n\nCategories\n\n\nIn this table we will define our categories (folders) hierarchy.\n\nEach row will be created with its 'child' row inside of her.\n\n\nRight click to add, remove and move up/down categories\n\n\n\n\n\n\nFor each catagory, we will set:\n\n\n\n\nname\n\n\nquantaty selector (single / multiple)\n\n\nfrom - to (insted of inputing the number of folders, we define the range)\n\n\npadding - how to format the numbers (padding of 3 = 001)\n\n\n\n\n\n\nTip\n\n\nTo create a single folder with no numbering, set from and to at 1 and padding to 0\n\n\n\n\n\n\nNote\n\n\nTo let the user input a value during generation- select \"[user input]\"\n\n\n\n\n\n\nComponents\n\n\nIn this table we will define our components...\nEach component will be created at the bottom of the categories hierarchy.\n\n\nThe categories hierarchy will be created under the defined branch.\n\n\n\n\nNon existing branches will be generated.\n\n\nContant will be added to existing branches.\n\n\n\n\nRight click to add and remove components\n\n\n\n\n\n\nname\n\n\nbranch\n\n\nformat - Used to define how actual maya file names will be formatted\n\n\n\n\nComponent name format\n\n\nThe file names will be compiled from each heirarchy level, followed by the component name, and versions number.\n\n\nLEVEL001\n_\nLEVEL002\n_\nCOMPONENT\n_v001.ma\n\n\nThe formatter use the format value to select how many hierarchy level to use when forming the name.\n\n\nTo avoid a name like this (The 'Characters' is pretty obvious here):\n\n\nCharacters_animal_rig_v001.ma\n\nUse a format value of 2, which will result in this name:\n\n\nanimal_rig_v001.ma\n\n\n\n\nPreset generation\n\n\nFrom the project navigator, on any branch, in the root dir action menu:\n\n\n\n\n\n\nNote\n\n\nAny preset saved to the pipeline presets dir will be listed in this menu.\n\nTo load a preset from other location, click \"From file...\"", 
+            "title": "Presets"
+        }, 
+        {
+            "location": "/presets/#presets", 
+            "text": "Presets are used to design a folder structure schema that describes the studio's tasks \nand enable the user to generate common tree structures quickly.  A preset will ask for user input to generate a folder tree with all the needed components and categories with just a few clicks.  Presets can be created from the ui, exported and imported as json files and shared between friends and colleagues.   In this example, a preset is used to generate all the components needed for the \"Animal\" character,  \nNotice how the categories are duplicated in both \"assets\" and \"sourceimages\" branches. \nIn maya, this structure can be very helpful", 
+            "title": "Presets"
+        }, 
+        {
+            "location": "/presets/#the-preset-manager", 
+            "text": "In the preset manager we can create and edit our presets. \nThe preset is made up of categories and components", 
+            "title": "The preset manager"
+        }, 
+        {
+            "location": "/presets/#categories", 
+            "text": "In this table we will define our categories (folders) hierarchy. \nEach row will be created with its 'child' row inside of her.  Right click to add, remove and move up/down categories    For each catagory, we will set:   name  quantaty selector (single / multiple)  from - to (insted of inputing the number of folders, we define the range)  padding - how to format the numbers (padding of 3 = 001)    Tip  To create a single folder with no numbering, set from and to at 1 and padding to 0    Note  To let the user input a value during generation- select \"[user input]\"", 
+            "title": "Categories"
+        }, 
+        {
+            "location": "/presets/#components", 
+            "text": "In this table we will define our components...\nEach component will be created at the bottom of the categories hierarchy.  The categories hierarchy will be created under the defined branch.   Non existing branches will be generated.  Contant will be added to existing branches.   Right click to add and remove components    name  branch  format - Used to define how actual maya file names will be formatted", 
+            "title": "Components"
+        }, 
+        {
+            "location": "/presets/#component-name-format", 
+            "text": "The file names will be compiled from each heirarchy level, followed by the component name, and versions number.  LEVEL001 _ LEVEL002 _ COMPONENT _v001.ma  The formatter use the format value to select how many hierarchy level to use when forming the name.  To avoid a name like this (The 'Characters' is pretty obvious here):  Characters_animal_rig_v001.ma \nUse a format value of 2, which will result in this name:  animal_rig_v001.ma", 
+            "title": "Component name format"
+        }, 
+        {
+            "location": "/presets/#preset-generation", 
+            "text": "From the project navigator, on any branch, in the root dir action menu:    Note  Any preset saved to the pipeline presets dir will be listed in this menu. \nTo load a preset from other location, click \"From file...\"", 
+            "title": "Preset generation"
         }
     ]
 }
