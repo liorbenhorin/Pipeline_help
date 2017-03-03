@@ -1,27 +1,61 @@
-##The component panel
+#The component tab
 
-When selecting a component frim the navigation panel, its being loaded into the component panel.
-You can see the component summary with the number of versions, public status identifier, thumbnail and notes.
-Below the notes are the versions, masters and playblasts tabs.
 
-Versions 
-Components versions displayed in a table view with important metadata.
-Double click the + icon to add a comment linked to a specific version.
+![The project switcher](componet_view.png)
 
-Masters and playblasts tabs are the same with the exception of the master file/playblast shown at the top of the tab.
+When you select a component from the navigation panel, its will show in the component panel.
 
-Right click on any version for specific options.
+The panel is made of the component path, number of versions, thumbnail and a note.
 
-Action buttons:
-Save version
-Right click to save version from selection or file.
+* **Save a thumbnail** - click on the small disc icon at the top left corner of the thumbnail.
+* **Save or edit note** - double click the note area.
 
-Save master
-Saves a new master file, a numbered master file and a new version.
-Opens up the master file
-Publishing commands will be added soon.
+***
 
-Save playblast
-Recoreds playblast with the settings saved in the playblast options*
-A numbers copy is saved as a version for easy reverting.
-It is recommended to use the master recording in your video editing / compositing software.
+###Versions 
+
+The version tab will display all the versions of the component.
+
+* **Open version** - click the open button to load requested version. 
+
+    ![The project switcher](open_reload.png)
+    
+    * _If the version is already loaded a reload button will appear._
+
+* **Save note** - double click the + balloon. 
+
+_Additionally we can see the file size, save time & data and the user that saved the version (For project's with users)._ 
+
+####Save version
+
+* **Save version** - Save the current maya file as a new version.
+* **Save only selection** - Save the current selection as a new version.
+    * You can choose to save with with all connection or just textures.
+* **Save from file** - Select a file to save as the new version.
+
+####Version actions menu
+
+![The project switcher](version_actions_menu.png)
+
+Right click on a version to invoke the menu
+
+* **Reference version # into the current scene** - Reference the selected version onto the current open scene.
+* **Import version # into the current scene** - Import the selected version onto the current open scene.
+* **Delete** - Delete's the selected version
+* **Explore** - Open the finder / explorer window on the current selected item.
+***
+
+###Masters & Playblasts
+
+* **Master** - Unversioned file with the 'MASTER' suffix.
+* **Master versions**
+
+!!! Note
+    In playblasts tab, the open button is replaced with a play button to launch the video in the defult video player.
+    
+    ![The project switcher](playblasts_play.png)
+    
+If we want to revert our master file to an older version, we can use the **revert** action.<br>
+
+![The project switcher](master_actions.png)
+

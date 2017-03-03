@@ -39,7 +39,7 @@ Each row will be created with its 'child' row inside of her.
 5. padding - how to format the numbers (padding of 3 = 001)
 
 !!! tip
-    To create a single folder with no numbering, set from, to and padding to 0<br>
+    To create a single folder with no numbering, set from and to at 1 and padding to 0<br>
 
 !!! note
     To let the user input a value during generation- select "[user input]"<br>

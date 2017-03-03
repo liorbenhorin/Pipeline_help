@@ -1,4 +1,4 @@
-#Quick start
+#Getting started
 
 ***Let's create our first project and save our first versioned item***
 
