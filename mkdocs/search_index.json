@@ -209,6 +209,21 @@
             "location": "/presets/#preset-generation", 
             "text": "From the project navigator, on any branch, in the root dir action menu:    Note  Any preset saved to the pipeline presets dir will be listed in this menu. \nTo load a preset from other location, click \"From file...\"", 
             "title": "Preset generation"
+        }, 
+        {
+            "location": "/hotkeys/", 
+            "text": "Hotkeys and Shelf buttons\n\n\nYou can map the below codes to either hotkeys or shelf buttons\n\n\nSave version\n\n\ndef\n \npipeline_save_version\n():\n\n    \nimport\n \nlogging\n\n    \nlogger\n \n=\n \nlogging\n.\ngetLogger\n(\n__name__\n)\n\n    \ntry\n:\n\n        \npipeline_win\n \n=\n \npipeline\n.\napps\n.\npipeline_main\n.\npipeLineUI\n.\ninstances\n\n        \nprint\n \npipeline_win\n\n        \nif\n \nlen\n(\npipeline_win\n)\n \n==\n \n1\n:\n\n            \npipeline_win\n[\n0\n]\n.\nversion_save\n()\n\n        \nelse\n:\n\n            \nlogger\n.\ninfo\n(\nNot saving: Too many pipeline instances.\n)\n\n\n    \nexcept\n:\n\n        \nlogger\n.\ninfo\n(\nNot saving: no Pipeline instance found\n)\n\n\n\n\npipeline_save_version\n()", 
+            "title": "hotkeys / shelf buttons"
+        }, 
+        {
+            "location": "/hotkeys/#hotkeys-and-shelf-buttons", 
+            "text": "You can map the below codes to either hotkeys or shelf buttons", 
+            "title": "Hotkeys and Shelf buttons"
+        }, 
+        {
+            "location": "/hotkeys/#save-version", 
+            "text": "def   pipeline_save_version (): \n     import   logging \n     logger   =   logging . getLogger ( __name__ ) \n     try : \n         pipeline_win   =   pipeline . apps . pipeline_main . pipeLineUI . instances \n         print   pipeline_win \n         if   len ( pipeline_win )   ==   1 : \n             pipeline_win [ 0 ] . version_save () \n         else : \n             logger . info ( Not saving: Too many pipeline instances. ) \n\n     except : \n         logger . info ( Not saving: no Pipeline instance found )  pipeline_save_version ()", 
+            "title": "Save version"
         }
     ]
 }
